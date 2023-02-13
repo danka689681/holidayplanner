@@ -1,0 +1,23 @@
+.calendarWrapper {
+    display:inline-flex;
+    margin:auto;
+    flex-direction: row;
+}
+
+
+.calendarToday {
+    background-color: #c2185b;
+    color: white;
+    box-shadow: 0 0 4px rgb(21 21 21 / 21%);
+    border: 1px solid rgba(21,21,21,.12);
+}
+
+
+.title {
+    margin-bottom: 1em;
+}
+@media only screen and (max-width: 900px) {
+    .calendarWrapper {
+        flex-direction: column;
+    }
+}
